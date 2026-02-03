@@ -72,7 +72,7 @@ h3{font-size:36px; line-height: 1.2em; ;}
 .circle.cr01 .cr_img{transform: rotate(0deg); animation: circle01 5s linear infinite;}
 .circle.cr02 .cr_img{transform: rotate(90deg); animation: circle02 5s linear infinite;}
 
-#story04{background: url(/images/sub/with_bg.jpg) no-repeat center;}
+#story04{background: url(../images/sub/with_bg.jpg) no-repeat center;}
 #story04 .inner{display: flex; color:#fff; align-items: center; gap:60px;}
 #story04 .img_wr{width: 600px; height: 400px; border-radius: 20px; overflow: hidden;} 
 #story04 .txt_wr p{line-height: 1.2em; text-shadow: 0 0 15px rgba(0,0,0,0.5);}
@@ -144,4 +144,5 @@ h3{font-size:36px; line-height: 1.2em; ;}
         
 /* --------------------------------------------------------------------------- */
 /* cafe */
+
 #cafe02 .tit_box {padding-right: 60px;}
