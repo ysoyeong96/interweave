@@ -73,6 +73,7 @@ h2{font-size:38px; font-weight: 900; line-height: 1.2em;}
 #event .more{padding:0 0 0 30px; margin-top:0; top:-30px}
 .ev_wrap {display:flex; gap:50px;overflow: hidden;}
 .left_fix img {width: 400px;height: 500px;border-radius: 20px;object-fit: cover;}
+.ev_bn {cursor:url(../images/common/drag_pointer.png) 0 0, auto;}
 .ev_bn .swiper-wrapper{gap:50px;}
 .ev_bn .swiper-wrapper .swiper-slide{border-radius: 20px; overflow: hidden; width:336px !important; height:420px; }
 .ev_bn .swiper-pagination{top:auto !important; bottom:0 !important;}
@@ -118,7 +119,7 @@ h2{font-size:38px; font-weight: 900; line-height: 1.2em;}
 
 
 /* 클래스 */
-#class{min-width:1320px;  overflow: hidden;}
+#class{min-width: 1320px; overflow: hidden;}
 .class_top {height:480px; background: url(../images/main/bg_class.jpg) no-repeat; background-position:center; background-size: cover;  background-attachment: fixed;}
 .class_top .inner{ position:relative; height:480px; display: flex; flex-direction: column; align-items: center; justify-content: center;}
 .cl_tit {font-size:72px; font-weight: 800; color:#CD0C0C; margin-bottom:50px;}
@@ -134,5 +135,4 @@ h2{font-size:38px; font-weight: 900; line-height: 1.2em;}
 .class_btm{display: flex;margin-top:80px; position:relative;}
 .class_btm>div{width:435px; margin:0 auto; word-break: keep-all; text-align: justify;}
 .class_btm h3{font-size:32px; font-weight: 500; color:#E03F3F; margin-bottom:15px;}
-
 .class_btm:before{display: block; content:""; width:1px; height:355px; background-color: #222; position: absolute; top:50%; left:50%; transform: translate(-50%, -50%);}
