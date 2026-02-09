@@ -65,8 +65,22 @@ function openBoard(evt, boardName) {
 
 //------------------------- 서브 ---------------------------------
 //brand story - 인트로 타이핑 
-const textElements = gsap.utils.toArray('#story01 .typing');
+const textElements = gsap.utils.toArray('#story01 .typing:first-child');
 textElements.forEach(text => {
+  gsap.to(text, {
+    backgroundSize: '100%',
+    ease: 'none',
+    scrollTrigger: {
+      trigger: text,
+      start: 'center 30%',
+      end: 'center 100%',
+      scrub: 1,
+    },
+  });
+});
+
+const textElements2 = gsap.utils.toArray('#story01 .typing:nth-child(2)');
+textElements2.forEach(text => {
   gsap.to(text, {
     backgroundSize: '100%',
     ease: 'none',
@@ -74,7 +88,7 @@ textElements.forEach(text => {
       trigger: text,
       start: 'center 20%',
       end: 'center 100%',
-      scrub: true,
+      scrub: 1,
     },
   });
 });
@@ -159,3 +173,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
             });
         });
+
+
+//cafe - 탭
+function openTab(tabName) {
+        document.querySelectorAll('.tab, .tabs').forEach(function(el) {
+            el.classList.remove('on');
+        });
+        document.getElementById(tabName).classList.add('on');
+        document.querySelector('.tabs[onclick="openTab(\'' + tabName + '\')"]').classList.add('on');
+    }
+
+
