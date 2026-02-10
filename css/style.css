@@ -124,7 +124,8 @@ h2{font-size:38px; font-weight: 800; line-height: 1.2em;}
 .class_top .inner{ position:relative; height:480px; display: flex; flex-direction: column; align-items: center; justify-content: center;}
 .cl_tit {font-size:72px; font-weight: 800; color:#CD0C0C; margin-bottom:50px;}
 .go_btn {margin-top:50px;}
-.go_btn .go{display: inline-block; margin:0 5px; padding: 10px 40px 10px 20px; background-color: #211704; color:#fff; background-image: url(../images/common/go_btn.svg); background-repeat: no-repeat; background-position: center right 20px; border-radius: 24px;}
+.go_btn .go{display: inline-block; margin:0 5px; padding: 10px 40px 10px 20px; background-color: #3d2921; color:#fff; background-image: url(../images/common/go_btn.svg); background-repeat: no-repeat; background-position: center right 20px; border-radius: 24px; transition:all 0.5s;}
+.go_btn .go:hover{background-color: #211704;}
 
 .img_po p{overflow: hidden;}
 .img_po p:nth-child(1){width:250px; height: 280px; position:absolute; bottom: 0; left:-50px;}
@@ -135,4 +136,5 @@ h2{font-size:38px; font-weight: 800; line-height: 1.2em;}
 .class_btm{display: flex;margin-top:80px; position:relative;}
 .class_btm>div{width:435px; margin:0 auto; word-break: keep-all; text-align: justify;}
 .class_btm h3{font-size:32px; font-weight: 500; color:#E03F3F; margin-bottom:15px;}
+
 .class_btm:before{display: block; content:""; width:1px; height:355px; background-color: #222; position: absolute; top:50%; left:50%; transform: translate(-50%, -50%);}
