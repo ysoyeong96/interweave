@@ -54,7 +54,7 @@ h3{font-size:36px; line-height: 1.2em; ; margin-bottom:15px;}
 #story03 .b_info{background-color: #FFF0D3; padding:80px 0; }
 #story03 .b_info .inner{display: flex; justify-content: space-between;}
 #story03 .b_info .tit_box h3{color:#CD0C0C; margin-bottom:20px;}
-#story03 .b_info .tit_box .line {width: 350px; height: 2px;  background-color: #CD0C0C;   transform: scaleX(0);  transform-origin: left;
+#story03 .b_info .tit_box .line {display:block; width: 350px; height: 2px;  background-color: #CD0C0C;   transform: scaleX(0);  transform-origin: left;
     transition: transform 1s ease-in-out;}
 #story03 .b_info .tit_box .line_scrolled {transform: scaleX(1);}
 #story03 .b_info .tit_box .under{margin-top:10px; position: relative;}
@@ -87,7 +87,7 @@ h3{font-size:36px; line-height: 1.2em; ; margin-bottom:15px;}
 #story04 .img_wr{width: 600px; height: 400px; border-radius: 20px; overflow: hidden;} 
 #story04 .txt_wr p{line-height: 1.2em; text-shadow: 0 0 15px rgba(0,0,0,0.5);}
 #story04 .txt_wr .sub_t{font-size:24px; }
-#story04 .txt_wr .main_t{font-size:48px; margin-top:10px; font-weight:500;}
+#story04 .txt_wr .main_t{font-size:48px; margin-top:10px; font-weight:500; text-shadow: 0 0 15px rgba(0,0,0,0.5);}
 #story04 .txt_wr .main_t span{color:#FFF0D3;}
 
 /* --------------------------------------------------------------------------- */
@@ -336,5 +336,6 @@ h3{font-size:36px; line-height: 1.2em; ; margin-bottom:15px;}
 .more_btn button{font-size:16px; padding:10px 20px; box-sizing: border-box; width: 100px; border:1px solid #444; border-radius: 20px;}
 
 .more_btn button:hover{background-color: #222; color:#fff;}
+
 
 
