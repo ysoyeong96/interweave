@@ -16,7 +16,8 @@ h3{font-size:36px; line-height: 1.2em; ; margin-bottom:15px;}
 .bullet_text p{padding-left:20px; background: url(../images/sub/class_bullet.svg) no-repeat left center/15px 15px;}
 .red {color:#CD0C0C;}
 
-.go_btn a{display: inline-block; margin:0 5px; padding: 10px 40px 10px 20px; background-color: #211704; color:#fff; background-image: url(../images/common/go_btn.svg); background-repeat: no-repeat; background-position: center right 20px; border-radius: 24px;}
+.go_btn a{display: inline-block; margin:0 5px; padding: 10px 40px 10px 20px; background-color: #3d2921; color:#fff; background-image: url(../images/common/go_btn.svg); background-repeat: no-repeat; background-position: center right 20px; border-radius: 24px;transition:all 0.5s;}
+.go_btn a:hover{background-color: #211704;}
 .write_btn{display: flex; justify-content: flex-end;}
 .write_btn button{display: block; padding:8px 20px; font-size:15px; border:1px solid #222; border-radius: 24px;}
 .write_btn button:hover{background-color: #222; color:#fff;}
@@ -336,6 +337,7 @@ h3{font-size:36px; line-height: 1.2em; ; margin-bottom:15px;}
 .more_btn button{font-size:16px; padding:10px 20px; box-sizing: border-box; width: 100px; border:1px solid #444; border-radius: 20px;}
 
 .more_btn button:hover{background-color: #222; color:#fff;}
+
 
 
 
