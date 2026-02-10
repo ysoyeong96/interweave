@@ -129,50 +129,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-//store04 - core section
-        document.addEventListener("DOMContentLoaded", () => {
-            const columns = document.querySelectorAll('.slide-column');
-            const bgTarget = document.getElementById('bg-target');
-            let currentIndex = 0;
-            let slideTimer;
 
-            function updateSlide(index) {
-                // 1. 모든 컬럼 초기화
-                columns.forEach(col => col.classList.remove('active'));
-
-                // 2. 현재 컬럼 활성화
-                const activeCol = columns[index];
-                activeCol.classList.add('active');
-
-                // 3. 배경 이미지 변경 (data-img 값 가져오기)
-                const newImg = activeCol.dataset.img;
-                console.log("이미지 경로:", newImg);
-                bgTarget.style.backgroundImage = 'url("' + newImg + '")';
-
-                // 인덱스 업데이트
-                currentIndex = index;
-            }
-
-            function autoSlide() {
-                let nextIndex = (currentIndex + 1) % columns.length;
-                updateSlide(nextIndex);
-            }
-
-            // 초기 이미지 설정
-            updateSlide(0);
-
-            // 4초마다 실행
-            slideTimer = setInterval(autoSlide, 4000);
-
-            // 클릭 시 수동 전환 및 타이머 리셋
-            columns.forEach((col, index) => {
-                col.addEventListener('click', () => {
-                    updateSlide(index);
-                    clearInterval(slideTimer); // 사용자가 클릭하면 자동 재생 잠시 정지 후 재시작
-                    slideTimer = setInterval(autoSlide, 4000);
-                });
-            });
-        });
 
 
 //cafe - 탭
