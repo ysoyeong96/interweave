@@ -115,7 +115,9 @@ h3{font-size:36px; line-height: 1.2em; ; margin-bottom:15px;}
 
 #store03 h2, #store04 h2{margin-bottom:15px;}
 #store03 .img_wr{display: flex; gap:20px; padding-top:50px;}
-#store03 .img_wr p{width:25%; height:340px; border-radius: 20px; overflow: hidden;}
+#store03 .img_wr p{width:25%; height:340px; border-radius: 20px; overflow: hidden; transition: all 0.5s; }
+#store03 .img_wr p:nth-child(odd):hover{margin-top:-30px;}
+#store03 .img_wr p:nth-child(even):hover{margin-top:20px;}
 #store03 .img_wr p:nth-child(even){margin-top:50px;}
 #store03 .img_wr p:nth-child(1) img{margin-top:-200px}
 #store03 .img_wr p:nth-child(2) img{margin-top:-100px}
@@ -332,6 +334,7 @@ h3{font-size:36px; line-height: 1.2em; ; margin-bottom:15px;}
 
 .more_btn {text-align: center;}
 .more_btn button{font-size:15px; padding:15px 10px; box-sizing: border-box; width: 140px; background-color: #3d2921; color:#fff; border-radius: 25px;}
+
 
 
 
