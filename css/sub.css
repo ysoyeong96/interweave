@@ -287,7 +287,6 @@ h3{font-size:36px; line-height: 1.2em; ; margin-bottom:15px;}
 .ev_list li .txt_wr .due{font-weight: 800; color:#A94A3E;}
 .ev_list li .txt_wr .tit{font-size:24px;  word-break: keep-all; margin-top:10px;}
 
-.ev_list li.off .img_wr{filter: grayscale(1);}
 .ev_list li.off .txt_wr .due, .ev_list li.off .txt_wr .tit {color:#444;}
 
 #qna .go_bar{margin-bottom:30px; margin-top:0; background-color: #eee; vertical-align: middle;}
@@ -337,6 +336,7 @@ h3{font-size:36px; line-height: 1.2em; ; margin-bottom:15px;}
 .more_btn button{font-size:16px; padding:10px 20px; box-sizing: border-box; width: 100px; border:1px solid #444; border-radius: 20px;}
 
 .more_btn button:hover{background-color: #222; color:#fff;}
+
 
 
 
