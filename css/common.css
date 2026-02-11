@@ -76,4 +76,4 @@ header fieldset{display: flex;}
 .qmenu .doan_btn a span{display: block; text-align: center; align-content: center; color:#fff; position:relative; height: 100%;}
 .qmenu .doan_btn a span:before{display: block; content:""; width:27px; height: 36px; background: url(../images/common/qmenu_pdf.svg); margin:0 auto 5px;}
 
-.qmenu .top_btn {align-items: center;  width: 80px; height: 80px; border-radius: 50%; background:#fff url(../images/common/qmenu_top.svg) no-repeat center; box-shadow: 0 0 8px rgba(0,0,0,0.5); cursor: pointer;}
+.qmenu .top_btn {align-items: center;  width: 70px; height: 70px; border-radius: 50%; background:#f9f9f9 url(../images/common/qmenu_top.svg) no-repeat center; box-shadow: 0 0 8px rgba(0,0,0,0.5); cursor: pointer;}
