@@ -16,8 +16,8 @@ h3{font-size:36px; line-height: 1.2em; ; margin-bottom:15px;}
 .bullet_text p{padding-left:20px; background: url(../images/sub/class_bullet.svg) no-repeat left center/15px 15px;}
 .red {color:#CD0C0C;}
 
-.go_btn a{display: inline-block; margin:0 5px; padding: 10px 40px 10px 20px; background-color: #3d2921; color:#fff; background-image: url(../images/common/go_btn.svg); background-repeat: no-repeat; background-position: center right 20px; border-radius: 24px;transition:all 0.5s;}
-.go_btn a:hover{background-color: #211704;}
+.go_btn {display: inline-block; margin:0 5px; padding: 10px 40px 10px 20px; background-color: #3d2921; color:#fff; background-image: url(../images/common/go_btn.svg); background-repeat: no-repeat; background-position: center right 20px; border-radius: 24px;transition:all 0.5s; cursor: pointer;}
+.go_btn:hover{background-color: #211704;}
 
 
 /* 브랜드 스토리 */
@@ -332,6 +332,7 @@ h3{font-size:36px; line-height: 1.2em; ; margin-bottom:15px;}
 
 .more_btn {text-align: center;}
 .more_btn button{font-size:15px; padding:15px 10px; box-sizing: border-box; width: 140px; background-color: #3d2921; color:#fff; border-radius: 25px;}
+
 
 
 
