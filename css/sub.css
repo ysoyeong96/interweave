@@ -231,7 +231,7 @@ h3{font-size:36px; line-height: 1.2em; ; margin-bottom:15px;}
 #gd_basic > div ul li strong:before{display: block; content:""; width:1px; height: 15px; background-color: #999; position:absolute; top:5px; right:-10px;}
 #gd_basic > div .tit{width:400px;}
 #gd_basic .prepare ul, #gd_basic .bstep .guideSlide{width:calc(100% - 400px);}
- #gd_basic .bstep .guideSlide{ cursor:url(../images/common/drag_pointer.png) 0 0, auto;}
+ #gd_basic .bstep .guideSlide{ cursor:url(../images/common/drag_pointer.svg) 0 0, auto;}
 #gd_basic .prepare ul li{background-color: #eee; padding:10px; box-sizing: border-box; border-radius: 40px; display: flex;  align-items: center; margin-bottom:10px;}
 #gd_basic .prepare ul li:nth-child(even) .numb{background-color: #E86B5A;}
 
@@ -332,6 +332,7 @@ h3{font-size:36px; line-height: 1.2em; ; margin-bottom:15px;}
 
 .more_btn {text-align: center;}
 .more_btn button{font-size:15px; padding:15px 10px; box-sizing: border-box; width: 140px; background-color: #3d2921; color:#fff; border-radius: 25px;}
+
 
 
 
