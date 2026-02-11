@@ -283,7 +283,7 @@ h3{font-size:36px; line-height: 1.2em; ; margin-bottom:15px;}
 .ev_list li .img_wr:hover img{transform:scale(1.1);}
 .ev_list li .txt_wr {text-align: center; padding:20px; box-sizing: border-box;}
 .ev_list li .txt_wr .due{font-weight: 800; color:#A94A3E;}
-.ev_list li .txt_wr .tit{font-size:24px;  word-break: keep-all; margin-top:10px;}
+.ev_list li .txt_wr .tit{font-size:24px;  word-break: keep-all; margin-top:10px;  line-height: 1.2em;}
 
 .ev_list li.off .txt_wr .due, .ev_list li.off .txt_wr .tit {color:#444;}
 
@@ -332,6 +332,7 @@ h3{font-size:36px; line-height: 1.2em; ; margin-bottom:15px;}
 
 .more_btn {text-align: center;}
 .more_btn button{font-size:15px; padding:15px 10px; box-sizing: border-box; width: 140px; background-color: #3d2921; color:#fff; border-radius: 25px;}
+
 
 
 
