@@ -73,7 +73,7 @@ h2{font-size:38px; font-weight: 800; line-height: 1.2em;}
 #event .more{padding:0 0 0 30px; margin-top:0; top:-30px}
 .ev_wrap {display:flex; gap:50px;overflow: hidden;}
 .left_fix img {width: 400px;height: 500px;border-radius: 20px;object-fit: cover;}
-.ev_bn {cursor:url(../images/common/drag_pointer.png) 0 0, auto;}
+.ev_bn {cursor:url(../images/common/drag_pointer.svg) 0 0, auto;}
 .ev_bn .swiper-wrapper{gap:50px;}
 .ev_bn .swiper-wrapper .swiper-slide{border-radius: 20px; overflow: hidden; width:336px !important; height:420px; }
 .ev_bn .swiper-pagination{top:auto !important; bottom:0 !important;}
@@ -138,3 +138,4 @@ h2{font-size:38px; font-weight: 800; line-height: 1.2em;}
 .class_btm h3{font-size:32px; font-weight: 500; color:#E03F3F; margin-bottom:15px;}
 
 .class_btm:before{display: block; content:""; width:1px; height:355px; background-color: #222; position: absolute; top:50%; left:50%; transform: translate(-50%, -50%);}
+
